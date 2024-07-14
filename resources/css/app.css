@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    html {
+        @apply scrollbar-hide;
+    }
+}
+
+@layer components {
+    .modal-box {
+        @apply scrollbar-hide;
+    }
+}
